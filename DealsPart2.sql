@@ -72,6 +72,8 @@ FROM Players
 ORDER BY RoleSortOrder;
 
 # 13. Create a view called DealsByFirm
+DROP VIEW IF EXISTS `DealsByFirm`;
+CREATE VIEW DealsByFirm AS
 SELECT FirmID, `Name` AS FirmName, COUNT(PLAYERS.DealID) AS NumDeals, SUM(TotDollarValue) AS TotValue
 FROM FIRMS
 	JOIN PLAYERSUPPORTS USING (FirmID)
