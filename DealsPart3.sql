@@ -1,6 +1,6 @@
-# Created by Anthony Iorio, 11/18/2017, with the help of Dr. Chris Huntley.
-# The purpose of this exercise is to perform SQL foreign key opreations, including adding them to existing tables.
-# The purpose of this script is to help exemplify the performance implications of using foreign key constraints.
+/* Created by Anthony Iorio, 11/18/2017, with the help of Dr. Chris Huntley.
+The purpose of this exercise is to perform SQL foreign key opreations, including adding them to existing tables.
+The purpose of this script is to help exemplify the performance implications of using foreign key constraints. */
 
 USE deals;
 ALTER TABLE DealTypes 
