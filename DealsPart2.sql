@@ -1,6 +1,6 @@
-# Created by Anthony Iorio, 11/4/2017, with the help of Dr. Chris Huntley.
-# The purpose of this exercise is to write SQL select queries, and debug them.
-# The purpose of this script is to simplify data analysis by relating the different tables to each other, and using various SQL functions to perform mathematical operations on the data.
+/* Created by Anthony Iorio, 11/4/2017, with the help of Dr. Chris Huntley.
+The purpose of this exercise is to write SQL select queries, and debug them.
+The purpose of this script is to simplify data analysis by relating the different tables to each other, and using various SQL functions to perform mathematical operations on the data. */
 
 # Indicate that we are using the deals database
 USE deals;  
